@@ -310,41 +310,7 @@ body {
   }
 }
 
-a.main-button-slider {
-  font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #ff589e;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
 
-a.main-button-slider:hover {
-  background-color: #8261ee;
-}
-
-a.main-button {
-  font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #8261ee;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-a.main-button:hover {
-  background-color: #ff589e;
-}
 
 button.main-button {
   outline: none;
@@ -353,7 +319,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #61d9ee;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -387,7 +353,7 @@ header
 }
 
 .header-area .main-nav {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
   border-radius: 40px;
   min-height: 80px;
   background: #fff;
@@ -395,12 +361,12 @@ header
 
 .header-area .main-nav .logo {
   float: left;
-  margin-top: 37px;
+  margin-bottom: 40px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .header-area .main-nav .logo img {
@@ -408,11 +374,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  height: 80px;
 }
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: 27px;
+  margin-top: 100px;
   margin-left: 0px;
   margin-right: 30px;
   -webkit-transition: all 0.3s ease 0s;
@@ -424,7 +391,7 @@ header
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 20px;
+  padding-left: 40px;
   padding-right: 20px;
 }
 
@@ -548,7 +515,7 @@ header
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
+  margin-top: 2px;
 }
 
 .header-area.header-sticky .nav {
@@ -644,7 +611,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -665,13 +632,13 @@ welcome
   line-height: 54px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
-  color: #fff;
+  color: #fd472f;
 }
 
 .welcome-area .header-text p {
   font-weight: 400;
   font-size: 15px;
-  color: #fff;
+  color: #043349;
   line-height: 28px;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
@@ -769,7 +736,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #ec7a7a;
 }
 
 .features-small-item .icon {
@@ -783,7 +750,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #8ef7cf;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -870,7 +837,7 @@ parallax & home seperator
 
 .mini .mini-content .info {
   text-align: center;
-  color: #fff;
+  color: rgb(201, 75, 75);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -890,9 +857,9 @@ parallax & home seperator
 }
 
 .mini .mini-content .info h1 {
-  color: #fff;
-  font-weight: 500;
-  font-size: 28px;
+  color: rgb(243, 67, 67);
+  font-weight: 700;
+  font-size: 40px;
   letter-spacing: 0.25px;
   margin-bottom: 30px;
 }
@@ -900,11 +867,11 @@ parallax & home seperator
 .mini .mini-content .info p {
   letter-spacing: 1px;
   margin-bottom: 40px;
-  color: #fff;
+  color: rgb(243, 67, 67);
   letter-spacing: 0.25px;
   line-height: 26px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .mini .mini-content .info p span {
