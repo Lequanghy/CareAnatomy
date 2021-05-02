@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://careanatomy.co/"><img src="https://user-images.githubusercontent.com/28573419/116798103-616b6800-aaba-11eb-9c8e-575440ff80c5.PNG"></a>
+  <a href="https://careanatomy.co/"><img src="https://user-images.githubusercontent.com/28573419/116798223-64b32380-aabb-11eb-8e2a-425755513ad3.png"></a>
 </p>
 
 # Introduction
