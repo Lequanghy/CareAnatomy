@@ -37,5 +37,5 @@ https://www.apachefriends.org/index.html
 
 4. Run the website by entering http://localhost/careanatomy/ in your web browser.
 
-#FYI
+# FYI
 We run the group chat using the local hosting. We cannot run the XAMPP application on the Nelify hosting server. The mentors of the Equinox'21 contexts allow us to do this.
