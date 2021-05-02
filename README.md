@@ -1,7 +1,8 @@
-![careanatomy](https://user-images.githubusercontent.com/28573419/116798056-ffaafe00-aab9-11eb-955b-f287aed973e4.PNG)
+
 <p align="center">
   <a href="https://careanatomy.co/"><img src="https://user-images.githubusercontent.com/28573419/116798056-ffaafe00-aab9-11eb-955b-f287aed973e4.PNG"></a>
 </p>
+
 # Introduction
 CareAnatomy is the mental health care website that provides services for people who need support with their mental health or want to understand more about their mental health well-being.
 
