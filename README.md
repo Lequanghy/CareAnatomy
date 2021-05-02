@@ -33,6 +33,6 @@ https://www.apachefriends.org/index.html
 2. Selected the first two option when you open the XAMPP Control Panel
 ![xampp](https://user-images.githubusercontent.com/28573419/116797695-8b229000-aab6-11eb-9d8e-d18f12781045.PNG)
 
-3. Copy the folder of the website to the XAMPP installed folder.
+3. Copy the folder of the website to the xampp\htdocs installed folder.
 
 4. Run the website by entering http://localhost/careanatomy/ in your web browser.
