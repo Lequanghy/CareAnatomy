@@ -3,7 +3,7 @@
 </p>
 
 # Introduction
-CareAnatomy is the mental health care website that provides services for people who need support with their mental health or want to understand more about their mental health well-being.
+CareAnatomy is the mental health care website that provides services for people who need support with their mental health or want to understand more about their mental health well-being. This online service is free of charge, but customers can pay a premium to get additional and special treatment. Also, there is a donation system on the website that allows people to donate money for the benefit of the project and people with mental health illness. Since we are in the pandemic (COVID-19), we will have special service available during the tough time.
 
 # Branches
 
