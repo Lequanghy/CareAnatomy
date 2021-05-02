@@ -9,7 +9,7 @@ if(isset($_GET['logout'])){
     file_put_contents("log.html", $logout_message, FILE_APPEND | LOCK_EX);
      
     session_destroy();
-    header("Location: index.php"); //Redirect the user
+    header("Location: chat.php"); //Redirect the user
 }
  
 if(isset($_POST['enter'])){
@@ -25,7 +25,7 @@ function loginForm(){
     echo
     '<div id="loginform">
     <p>Please enter your name to continue!</p>
-    <form action="index.php" method="post">
+    <form action="chat.php" method="post">
       <label for="name">Name &mdash;</label>
       <input type="text" name="name" id="name" />
       <input type="submit" name="enter" id="enter" value="Enter" />
@@ -41,8 +41,12 @@ function loginForm(){
         <meta charset="utf-8" />
  
         <title>Care Antanomy Room Cares</title>
-        <meta name="description" content="Tuts+ Chat Application" />
         <link rel="stylesheet" href="../css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Mental Health Service Website">
+        <meta name="author" content="Quang Hy Le">
+        <title>Care Anatomy</title>
+
     </head>
     <body>
     <?php
@@ -51,6 +55,7 @@ function loginForm(){
     }
     else {
     ?>
+
         <div id="wrapper">
             <div id="menu">
                 <p class="welcome">Welcome to Room Cares, <b><?php echo $_SESSION['name']; ?></b></p>
@@ -71,6 +76,7 @@ function loginForm(){
                 <input name="submitmsg" type="submit" id="submitmsg" value="Send" />
             </form>
         </div>
+
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script type="text/javascript">
             // jQuery Document
@@ -105,7 +111,7 @@ function loginForm(){
                 $("#exit").click(function () {
                     var exit = confirm("Are you sure you want to end the session?");
                     if (exit == true) {
-                    window.location = "index.php?logout=true";
+                    window.location = "chat.php?logout=true";
                     }
                 });
             });

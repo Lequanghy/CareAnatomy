@@ -391,7 +391,7 @@ header
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 40px;
+  padding-left: 25px;
   padding-right: 20px;
 }
 
@@ -1049,7 +1049,7 @@ parallax & home seperator
     padding-bottom: 60px;
   }
   .counter .content {
-    position: relative !important;
+    position: re !important;
     top: 0% !important;
     transform: perspective(1px) translateY(0%) !important;
   }
@@ -1081,13 +1081,17 @@ team
   background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
   border-radius: 20px;
-  position: relative;
-  margin-bottom: 30px;
+  position: static;
+  margin-block-end: 30px;
   padding-bottom: 25px;
+  
+  
+  
+  ;
 }
 
 .team-item:hover .team-content .team-info {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .team-item i {
@@ -1095,8 +1099,9 @@ team
   margin-left: 25px;
   margin-top: 25px;
   font-size: 30px;
-  color: #4E47DE;
+  color: #ff82ee;
   text-align: center;
+  
 }
 
 .team-item .user-image {
@@ -1224,7 +1229,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #8261ee;
+  background: #923a7f;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
